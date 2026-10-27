@@ -1,0 +1,27 @@
+UNIVERSITY ROBOTICS & AUTOMATION SOCIETY (URAS)
+OFFICIAL ANNOUNCEMENT: 2026 CAMPUS AUTONOMOUS BOT HACKATHON
+"RoboPilot 2026: The 24-Hour Autonomous Navigation Challenge"
+
+EVENT SCHEDULE & MANDATORY TIMING:
+- Event Date: Friday, November 13, 2026
+- Hours: 13:00 - 18:00 (1:00 PM - 6:00 PM)
+- Location: Student Innovation Center, Main Atrium & Robotics Arena
+- Schedule Breakdown:
+  * 13:00 - 13:30: Team Check-in, Hardware Kit Handout & Sensor Calibration
+  * 13:30: Keynote & Challenge Briefing by Industry Sponsors
+  * 14:00 - 17:00: Main Track Coding & Hardware Obstacle Run
+  * 17:15 - 18:00: Final Judging, Live Demonstrations & Award Ceremony
+
+ELIGIBILITY & TEAM RULES:
+- Open to all actively enrolled undergraduate engineering students.
+- Teams must comprise exactly 3 to 4 students.
+- Prerequisite: Active URAS Society membership or registered GDG chapter affiliation.
+- Required Tools: Bring your own laptop, Linux/ROS2 environment pre-installed.
+
+PRIZES & CERTIFICATES:
+- 1st Place: $2,500 Hardware Grant + GDG Global Showcase Invitation.
+- 2nd Place: $1,000 Component Voucher.
+
+IMPORTANT AMBIGUITY / UNCERTAINTIES:
+- Venue access is subject to Student Affairs final safety inspection.
+- Microcontroller kits will be allocated on a first-come, first-served basis at 13:00 check-in.

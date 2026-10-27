@@ -1,0 +1,168 @@
+@import "tailwindcss";
+
+@theme {
+  --color-canvas: #FFFFFF;
+  --color-warm-cream: #FFF9F2;
+  --color-card: #FFFFFF;
+  --color-pumpkin: #FF8A3D;
+  --color-pumpkin-soft: #FFF0E5;
+  --color-lavender: #EDE7FF;
+  --color-purple-accent: #7C5CE7;
+  --color-pale-yellow: #FFF4C2;
+  --color-mint: #DDF7E8;
+  --color-dark: #282433;
+  --color-muted: #777382;
+  --color-border-soft: #F0EAF3;
+  --color-danger: #D94C4C;
+
+  --font-heading: 'Fredoka', cursive, system-ui, sans-serif;
+  --font-sans: 'Nunito', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+:root {
+  --bg-primary: #FFFFFF;
+  --bg-secondary: #FFF9F2;
+  --bg-card: #FFFFFF;
+  --color-pumpkin: #FF8A3D;
+  --color-soft-orange: #FFF0E5;
+  --color-lavender: #EDE7FF;
+  --color-purple: #7C5CE7;
+  --color-yellow: #FFF4C2;
+  --color-mint: #DDF7E8;
+  --text-primary: #282433;
+  --text-secondary: #777382;
+  --border-light: #F0EAF3;
+}
+
+body {
+  background-color: #FFF9F2;
+  color: #282433;
+  font-family: 'Nunito', system-ui, -apple-system, sans-serif;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.font-heading {
+  font-family: 'Fredoka', system-ui, sans-serif;
+}
+
+.font-sans {
+  font-family: 'Nunito', system-ui, sans-serif;
+}
+
+.font-mono {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Friendly White Minimalist Cards */
+.friendly-card {
+  background-color: #FFFFFF;
+  border: 1px solid #F0EAF3;
+  border-radius: 1.125rem;
+  box-shadow: 0 2px 8px -2px rgba(40, 36, 51, 0.04), 0 1px 3px 0 rgba(40, 36, 51, 0.02);
+  transition: all 0.2s ease;
+}
+
+.friendly-card:hover {
+  box-shadow: 0 6px 16px -4px rgba(40, 36, 51, 0.08);
+  border-color: #E2D9E7;
+  transform: translateY(-1px);
+}
+
+/* Soft Accent Buttons */
+.btn-friendly-pumpkin {
+  background-color: #FF8A3D;
+  color: #FFFFFF;
+  font-family: 'Fredoka', system-ui, sans-serif;
+  font-weight: 600;
+  border-radius: 0.875rem;
+  padding: 0.625rem 1.25rem;
+  transition: all 0.18s ease;
+  box-shadow: 0 3px 10px -2px rgba(255, 138, 61, 0.35);
+}
+
+.btn-friendly-pumpkin:hover {
+  background-color: #FF7B25;
+  box-shadow: 0 4px 14px -2px rgba(255, 138, 61, 0.45);
+  transform: translateY(-1px);
+}
+
+.btn-friendly-pumpkin:active {
+  transform: translateY(0);
+}
+
+.btn-friendly-soft {
+  background-color: #FFF0E5;
+  color: #FF8A3D;
+  border: 1px solid #FFE2CD;
+  font-family: 'Fredoka', system-ui, sans-serif;
+  font-weight: 600;
+  border-radius: 0.875rem;
+  padding: 0.625rem 1.25rem;
+  transition: all 0.18s ease;
+}
+
+.btn-friendly-soft:hover {
+  background-color: #FFE6D6;
+  color: #E66F22;
+}
+
+.btn-friendly-purple {
+  background-color: #7C5CE7;
+  color: #FFFFFF;
+  font-family: 'Fredoka', system-ui, sans-serif;
+  font-weight: 600;
+  border-radius: 0.875rem;
+  padding: 0.625rem 1.25rem;
+  transition: all 0.18s ease;
+  box-shadow: 0 3px 10px -2px rgba(124, 92, 231, 0.35);
+}
+
+.btn-friendly-purple:hover {
+  background-color: #6B47E2;
+  transform: translateY(-1px);
+}
+
+/* Friendly Cute Ghost Float */
+@keyframes cuteFloat {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-6px) rotate(1.5deg);
+  }
+}
+
+.cute-float {
+  animation: cuteFloat 4s ease-in-out infinite;
+}
+
+/* Reduced Motion Safety */
+@media (prefers-reduced-motion: reduce) {
+  .cute-float,
+  .friendly-card:hover {
+    animation: none !important;
+    transform: none !important;
+    transition: none !important;
+  }
+}
+
+/* Sleek Friendly Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FFF9F2;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E8E2EC;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #FF8A3D;
+}

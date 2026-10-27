@@ -1,0 +1,41 @@
+DEPARTMENT OF COMPUTER SCIENCE & ENGINEERING
+CS301: Advanced Operating Systems — Fall Semester 2026
+Course Syllabus, Exam Timetable & Lab Policies
+
+Instructor: Prof. Jonathan Vance | Office: Turing Hall 402
+Teaching Assistants: Sarah Lin, Marcus Brody
+Lecture Hours: Monday & Wednesday, 10:00 AM - 11:30 AM (Room 101)
+
+COURSE MILESTONES & EXAM SCHEDULE:
+1. Midterm Theory Examination
+   - Date: Monday, November 2, 2026
+   - Time: 10:00 - 11:30 (Room 101)
+   - Scope: Virtual Memory, Process Synchronization, Scheduling Algorithms.
+
+2. Hands-on Kernel Lab Practical Exam [MANDATORY]
+   - Date: Friday, November 13, 2026
+   - Time: 14:00 - 17:00 (2:00 PM - 5:00 PM)
+   - Location: Turing Hall Lab 3B
+   - Weight: 25% of final course grade.
+   - Eligibility & Requirements:
+     * Minimum 75% lab attendance required to sit for the practical.
+     * Must bring physical University ID card.
+     * One single-sided 8.5x11 handwritten formula sheet permitted.
+     * STRICT POLICY: No makeup labs permitted without Dean of Student Affairs medical waiver.
+
+
+CS301: Advanced Operating Systems — Deliverables & Deadlines
+
+PROJECT MILESTONE & FINAL CODE SUBMISSION:
+- Milestone Title: Final Multithreaded Kernel Module Project
+- Due Date: Saturday, November 14, 2026
+- Due Time: 23:59 (11:59 PM)
+- Submission Platform: University Canvas Portal (Zip format with Makefile)
+- Late Policy: Deductions of 10% per hour up to 6 hours. Zero credit after 6 hours.
+- Required Actions:
+  * Complete benchmark analysis against Linux 6.8 kernel baseline.
+  * Submit 6-page technical report with concurrency race-condition analysis.
+  * Tag git commit release v1.0-final.
+
+UNCERTAINTIES & TENTATIVE ITEMS:
+- Oral Defense Date: Tentatively scheduled for November 18-20, 2026. Exact slots to be assigned following portal submission.
